@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const http = require('http').S  erver(app);
+const http = require('http').Server(app);
 const path = require('path')
 
 app.set('port', (process.env.PORT || 3000))
